@@ -228,37 +228,37 @@
 		}
 	},
 	"DATASETS": {
-        "TITLE": "Copy a machine learning project template",
+        "TITLE": "Copiar una plantilla de proyecto de aprendizaje automático",
         "INTRO": {
-            "INTRO_1": "You can create new machine learning project based on one of these templates.",
-            "INTRO_2": "Each one includes a set of training data that has been collected for you to help you get started quickly. ",
-            "INTRO_3": "You will be able to make changes to the training data if you like, or you can go straight to training a machine learning model with it. "
+            "INTRO_1": "Crear un proyecto de aprendizaje automático basado en uno de estas plantillas.",
+            "INTRO_2": "Cada una include un conjunto de datos de entrenamiento que han recolectacods previamente para ayudarte a empezar rapidamente. ",
+            "INTRO_3": "Puede hacer cambios en los datos de entrenamiento si lo prefiere o empezar directamente el entrenamiento del modelo con ellos. "
         },
-        "IMPORT": "Import",
+        "IMPORT": "Importar",
         "MORE": {
-            "TITLE": "Other data sets",
-            "SUMMARY": "What other data sets would you like to see?",
-            "DESCRIPTION": "Have you got an idea for a data set you'd like to see available here? Or do you have a data set that you'd like to contribute? Please get in touch!",
-            "MOREINFO": "More..."
+            "TITLE": "Otro conjunto de datos",
+            "SUMMARY": "¿Qué datos de entrenamiento adicionales te gustaría ver?",
+            "DESCRIPTION": "¿Tienes una idea respecto un conjunto de datos de entrenamiento que te gustaría tener aquí? O tienes un conjunto de datos que te gustaría compartir y contribuir? Por favor ponte en contacto!",
+            "MOREINFO": "Más..."
         },
         "DATA": {
             "TITANIC": {
-                "TITLE": "Titanic survivors",
-                "SUMMARY": "Predict survival on the Titanic",
-                "DESCRIPTION": "On 15th April 1912, the RMS Titanic hit an iceberg and sank, killing over 1500 of the passengers and crew. This project includes personal data about hundreds of the passengers. You can use this to train a machine learning model that, if you give it a description of a passenger, can learn to predict the likelihood that they would have survived. ",
-                "DETAILS": "The 'ticket class' field is a number indicating the type of ticket for the passenger: first class (1), second class (2), or third class (3). \nThe 'gender' field is whether the passenger was 'male' or 'female'. \nThe 'age' field is the age of the passenger. \nThe 'sibl. sp.' is the number of brothers or sisters (siblings) the passenger had on board if they were a child, or the number of husbands or wives (spouses) the passenger had on board if they were an adult. \nThe 'par. ch.' field is the number of parents the passenger had on board if they were a child, or the number of children the passenger had on board if they were an adult. \nThe 'ticket fare' field is how much they paid for their ticket. \nThe 'embarked' field is where they got on board the Titanic, either Cherbourg, Queenstown or Southampton."
+                "TITLE": "Sobrevivientes del Titanic",
+                "SUMMARY": "Predecir supervivencia en el Titanic",
+                "DESCRIPTION": "El 15 de Abril de 1912, el Titanic golpeó un iceberg y se hundió, matando a más de 1500 de los pasajeros y la tripulación. Este proyecto incluye datos personales sobre cientos de pasajeros. Puede usarlos para entrenar un modelo de aprendizaje automático, de forma que al darle la descripción de un pasajero, puede aprender a predicir la probabilidad de que sobreviva. ",
+                "DETAILS": "El campo 'clase de boleto' es un número que indica el tipo de boleto para el pasajero: primera clase (1), segunda clase (2) o tercera clase (3). \nEl campo 'género' es si el pasajero era 'masculino' o 'femenino'. \nEl campo 'edad' es la edad del pasajero. \n'sibl. sp.' es el número de hermanos o hermanas (hermanos) que el pasajero tenía a bordo si eran niños, o el número de esposos o esposas (cónyuges) que el pasajero tenía a bordo si eran adultos. \n'par. ch.' es el número de padres que el pasajero tenía a bordo si eran niños, o el número de hijos que el pasajero tenía a bordo si eran adultos. \nEl campo 'tarifa de boleto' es cuánto pagaron por su boleto.\nEl campo 'embarked' (embarcado) es donde subieron a bordo del Titanic, ya sea Cherburgo, Queenstown o Southampton."
             },
             "CATSANDDOGS": {
-                "TITLE": "Cats and Dogs",
-                "SUMMARY": "Recognize photos of cats vs dogs",
-                "DESCRIPTION": "Training a machine learning model to recognise photos of cats and dogs is a good simple introduction to image recognition.",
-                "DETAILS": "This training dataset of photos from Wikimedia Commons is a good starting set for building your own training data of animal photos"
+                "TITLE": "Gatos y perros",
+                "SUMMARY": "Reconocer fotos de gatos vs perros",
+                "DESCRIPTION": "El entrenamiento de un modelo de aprendizaje automático para reconocer fotos de gatos y perros es una buena introducción simple al reconocimiento de imágenes.",
+                "DETAILS": "Este conjunto de datos de entrenamiento de fotos de Wikimedia Commons es un buen conjunto de inicio para construir sus propios datos de entrenamiento de fotos de animales"
             },
             "UKNEWSPAPERS": {
-                "TITLE": "UK Newspaper Headlines",
-                "SUMMARY": "Recognize the use of language in newspaper headlines",
-                "DESCRIPTION": "Different newspapers use language in different ways. This project includes the main front page headline from four UK newspapers. You can use this to train a machine learning model that can learn to predict the most likely newspaper that a new headline is probably from. ",
-                "DETAILS": "This training dataset includes headlines from the Daily Mail, the Daily Telegraph, the Independent, and The Guardian"
+                "TITLE": "Titulares de los periódicos UK (Reino Unido)",
+                "SUMMARY": "Reconocer el uso del lenguaje en los titulares de los periódicos.",
+                "DESCRIPTION": "Diferentes periódicos usan el lenguaje de diferentes maneras. Este proyecto incluye el titular principal de la portada de cuatro periódicos del Reino Unido. Puede usar esto para entrenar un modelo de aprendizaje automático que pueda aprender a predecir el periódico del que probablemente provenga el titular. ",
+                "DETAILS": "Este conjunto de datos de entrenamiento incluye titulares de Daily Mail, Daily Telegraph, Independent y The Guardian"
             }
         }
     },
@@ -318,7 +318,7 @@
 			"WEBCAMFAIL": "¡Lo sentimos!, la cámara web no funciona. .",
 			"WEBCAMERROR": "El mensaje de error del navegador es:"
 		},
-        "BACKGROUNDNOISE": "Collecting examples of background noise will help the computer to learn to recognize your sounds"
+        "BACKGROUNDNOISE": "Recopilar ejemplos de ruido de fondo ayudará a la computadora a aprender a reconocer sus sonidos"
 	},
 	"MODELS": {
 		"TITLE": "Modelos de aprendizaje automático",
@@ -337,13 +337,13 @@
 					"TEXT": "La clase está entrenando un modelo de aprendizaje automático usando los ejemplos de texto agregados.",
 					"IMAGES": "La clase está entrenando un modelo de aprendizaje automático usando los ejemplos de imágenes agregados.",
 					"NUMBERS": "La clase está entrenando un modelo de aprendizaje automático usando los ejemplos de números agregados.",
-                    "SOUNDS" : "Your class is training a machine learning model using the examples of sounds that you all collected."
+                    "SOUNDS" : "Su clase está entrenando un modelo de aprendizaje automático usando los ejemplos de sonidos que todos recopilaron."
 				},
 				"INDIVIDUAL": {
 					"TEXT": "Estás entrenando un modelo de aprendizaje automático usando los ejemplos de texto agregados .",
 					"IMAGES": "Estás entrenando un modelo de aprendizaje automático usando los ejemplos de imágenes agregados.",
 					"NUMBERS": "Estás entrenando un modelo de aprendizaje automático usando los ejemplos de números agregados .",
-                    "SOUNDS" : "You've started training a machine learning model using the examples of sounds that you collected."
+                    "SOUNDS" : "Has comenzado a entrenar un modelo de aprendizaje automático utilizando los ejemplos de sonidos que has recopilado."
 				},
 				"SINCE": "Entrenando desde"
 			},
@@ -352,13 +352,13 @@
 					"TEXT": "La clase ha entrenado un modelo de aprendizaje automático para reconocer cuando un texto es ",
 					"IMAGES": "La clase ha entrenado un modelo de aprendizaje automático para reconocer cuando una imagen es ",
 					"NUMBERS": "La clase ha entrenado un modelo de aprendizaje automático para reconocer cuando un número es ",
-                    "SOUNDS" : "Your class has trained a machine learning model to recognise when sounds are "
+                    "SOUNDS" : "Su clase ha entrenado un modelo de aprendizaje automático para reconocer cuándo son los sonidos "
 				},
 				"INDIVIDUAL": {
 					"TEXT": "Has entrenado un modelo de aprendizaje automático para reconocer cuando un texto es ",
 					"IMAGES": "Has entrenado un modelo de aprendizaje automático para reconocer cuando una imagen es ",
 					"NUMBERS": "Has entrenado un modelo de aprendizaje automático para reconocer cuando un número es ",
-                    "SOUNDS" : "You have trained a machine learning model to recognise when sounds are "
+                    "SOUNDS" : "Ha entrenado un modelo de aprendizaje automático para reconocer cuándo suceden los sonidos "
 				},
 				"CREATED": {
 					"TEACHER": "Tu profesor ha creado el modelo el  ",
@@ -375,20 +375,20 @@
 						"TEXT": "El profesor intentó entrenar un modelo de aprendizaje automático usando los ejemplos de texto añadidos por la clase.",
 						"IMAGES": "El profesor intentó entrenar un modelo de aprendizaje automático usando los ejemplos de imágenes añadidos por la clase.",
 						"NUMBERS": "El profesor intentó entrenar un modelo de aprendizaje automático usando los ejemplos de números añadidos por la clase.",
-                        "SOUNDS" : "Your teacher tried training a machine learning model using the examples of sounds that your class collected."
+                        "SOUNDS" : "El profesor intentó entrenar un modelo de aprendizaje automático utilizando los ejemplos de sonidos que recopiló su clase."
 					},
 					"YOU": {
 						"TEXT": "Has intentado entrenar un modelo de aprendizaje automático usando los ejemplos de texto añadidos por la clase.",
 						"IMAGES": "Has intentado entrenar un modelo de aprendizaje automático usando los ejemplos de imágenes añadidos por la clase.",
 						"NUMBERS": "Has intentado entrenar un modelo de aprendizaje automático usando los ejemplos de números añadidos por la clase.",
-                        "SOUNDS" : "You tried training a machine learning model using the examples of sounds that your class collected."
+                        "SOUNDS" : "Intentó entrenar un modelo de aprendizaje automático utilizando los ejemplos de sonidos que su clase recopiló."
 					}
 				},
 				"INDIVIDUAL": {
 					"TEXT": "Has intentado entrenar un modelo de aprendizaje automático usando los ejemplos de imágenes que has añadido.",
 					"IMAGES": "Has intentado entrenar un modelo de aprendizaje automático usando los ejemplos de imágenes que has añadido.",
 					"NUMBERS": "Has intentado entrenar un modelo de aprendizaje automático usando los ejemplos de números que has añadido.",
-                    "SOUNDS" : "You tried training a machine learning model using the examples of sounds that you collected."
+                    "SOUNDS" : "Intentó entrenar un modelo de aprendizaje automático utilizando los ejemplos de sonidos que recopiló."
 				}
 			},
 			"IDLE": {
@@ -397,13 +397,13 @@
 						"TEXT": "La clase ha elegido añadir ejemplos de texto.",
 						"IMAGES": "La clase ha elegido añadir ejemplos de imágenes.",
 						"NUMBERS": "La clase ha elegido añadir ejemplos de números.",
-                        "SOUNDS" : "Your class said you want to collect examples of sounds."
+                        "SOUNDS" : "Tu clase dijo que quieres recolectar ejemplos de sonidos."
 					},
 					"INDIVIDUAL": {
 						"TEXT": "Has elegido añadir ejemplos de texto.",
 						"IMAGES": "Has elegido añadir ejemplos de imágenes.",
 						"NUMBERS": "Has elegido añadir ejemplos de números.",
-                        "SOUNDS" : "You've said you want to collect examples of sounds."
+                        "SOUNDS" : "Has dicho que quieres recopilar ejemplos de sonidos."
 					}
 				},
 				"NODATA": {
@@ -411,13 +411,13 @@
 						"TEXT": "La clase ha elegido añadir ejemplos de texto para que la computadora reconozca cuando un texto es ",
 						"IMAGES": "La clase ha elegido añadir ejemplos de texto para que la computadora reconozca cuando una imagen es ",
 						"NUMBERS": "La clase ha elegido añadir ejemplos de texto para que la computadora reconozca cuando un número  es ",
-                        "SOUNDS" : "Your class said that you want to collect examples of sounds for a computer to recognise when sounds are "
+                        "SOUNDS" : "Su clase dijo que desea recopilar ejemplos de sonidos para que una computadora reconozca cuándo son los sonidos "
 					},
 					"INDIVIDUAL": {
 						"TEXT": "Has elegido añadir ejemplos de texto para que la computadora reconozca cuando un texto es ",
 						"IMAGES": "Has elegido añadir ejemplos de imágenes para que la computadora reconozca cuando un texto es ",
 						"NUMBERS": "Has elegido añadir ejemplos de números para que la computadora reconozca cuando un texto es ",
-                        "SOUNDS" : "You said that you want to collect examples of sounds for a computer to recognise when sounds are "
+                        "SOUNDS" : "Dijiste que quieres recopilar ejemplos de sonidos para que una computadora reconozca cuándo son los sonidos "
 					}
 				},
 				"NOEXAMPLES": {
@@ -429,13 +429,13 @@
 						"TEXT": "La clase ha añadido ejemplos de texto para que la computadora aprenda a reconocer cuando un texto es ",
 						"IMAGES": "La clase ha añadido ejemplos de imágenes para que la computadora aprenda a reconocer cuando una imagen es ",
 						"NUMBERS": "La clase ha añadido ejemplos de números para que la computadora aprenda a reconocer cuando un número es ",
-                        "SOUNDS" : "Your class has collected examples of sounds for a computer to use to recognise when sounds are "
+                        "SOUNDS" : "Su clase ha recopilado ejemplos de sonidos para que una computadora los use para reconocer cuándo son los sonidos  "
 					},
 					"INDIVIDUAL": {
 						"TEXT": "Has añadido ejemplos de texto para que la computadora aprenda a reconocer cuando un texto es ",
 						"IMAGES": "Has añadido ejemplos de imágenes para que la computadora aprenda a reconocer cuando una imagen es ",
 						"NUMBERS": "Has añadido ejemplos de números para que la computadora aprenda a reconocer cuando un número es ",
-                        "SOUNDS" : "You have collected examples of sounds for a computer to use to recognise when sounds are "
+                        "SOUNDS" : "Ha recopilado ejemplos de sonidos para que una computadora los use para reconocer cuándo son sonidos"
 					},
 					"COLLECTED": {
 						"CLASS": "Han agregado: ",
@@ -447,7 +447,7 @@
 		"WHATSNEXT": {
 			"TITLE": "¿Y ahora qué hay que hacer?",
 			"PLEASEWAIT": "Espera unos minutos mientras se entrena el modelo..",
-			"OFFERQUIZ": "Or, you could try the machine learning quiz below, to check what you've learned.",
+			"OFFERQUIZ": "O bien, puede probar el cuestionario de aprendizaje automático a continuación para verificar lo que ha aprendido.",
 			"FAIL": "Mensaje de error. Si tiene sentido para tí, intenta arreglarlo. Si no, puede tratarse de un error aleatorio y lo mejor es empezar de nuevo.",
 
 			"IDLE": {
@@ -487,7 +487,7 @@
 					"TEXT": "Comprueba cómo funciona el modelo. Introduce un texto que no hayas usado en el entrenamiento. Te indicará cómo lo identifica y la fiabilidad de la respuesta. ",
 					"IMAGES": "Comprueba cómo funciona el modelo. Introduce una imagen que no hayas usado en el entrenamiento. Te indicará cómo lo identifica y la fiabilidad de la respuesta..",
 					"NUMBERS": "Comprueba cómo funciona el modelo. Introduce un número que no hayas usado en el entrenamiento. Te indicará cómo lo identifica y la fiabilidad de la respuesta..",
-                    "SOUNDS" : "Try testing the machine learning model below. Click the 'Start listening' button. If your machine learning model recognises any sounds, it will tell you what it recognises it as, and how confident it is in that."
+                    "SOUNDS" : "Intente probar el modelo de aprendizaje automático a continuación. Haz clic en el botón "Comenzar a escuchar". Si su modelo de aprendizaje automático reconoce algún sonido, le dirá cómo lo reconoce y qué tan seguro esta en eso."
 				},
 				"SCRATCH": "Si la computadora ha aprendido correctamente, puedes ir Scratch  y usar lo que ha aprendido para crear un juego.!",
 				"ADDITIONAL_TRAINING": {
@@ -503,7 +503,7 @@
 			}
 		},
 		"TRAINING": {
-			"TITLE": "Infrmación del entrenamiento:",
+			"TITLE": "Información del entrenamiento:",
 			"STARTED": "Modelo se inició started training at:",
 			"STATUS": "Estatus actual:",
 			"DETAIL": "Detalle:",
@@ -516,148 +516,148 @@
 				"TEXT": "Añade texto para ver cómo lo identifica tras el entrenamiento.",
 				"IMAGES": "Añade una imagen para ver cómo la identifica tras el entrenamiento.",
 				"NUMBERS": "Añade un número para ver cómo lo identifica tras el entrenamiento.",
-                "SOUNDS": "Try making a sound to see how it is recognised based on your training"
+                "SOUNDS": "Intenta hacer un sonido para ver cómo se reconoce según tu entrenamiento"
 			},
 			"WEBCAM": "Prueba con <strong>webcam</strong>",
 			"DRAWING": "Prueba con  <strong>un dibujo</strong>",
 			"WWW": "Prueba con <strong>www</strong>",
 			"RECOGNISED": "Identificado como  <strong>{{ testoutput }}</strong>",
-            "STARTLISTENING": "Start listening",
-            "STOPLISTENING": "Stop listening"
+            "STARTLISTENING": "Empieza a escuchar",
+            "STOPLISTENING": "Deja de escuchar"
 		},
 		"QUIZ": {
-			"TITLE": "Quiz time!",
-			"INTROQUESTION": "While you are waiting for the model to finish training, try answering this question.",
-			"PREVIOUSLY_ATTEMPTED": "You've seen this one before - let's see if you remember what the right answer is this time!",
-			"CORRECT_ANSWER": "That's right!",
-			"INCORRECT_ANSWER": "No, sorry. The correct answer is shown above.",
-			"NEXT_QUESTION": "Next question",
+			"TITLE": "Cuestionario de prueba!",
+			"INTROQUESTION": "Mientras espera que el modelo termine el entrenamiento, intente responder esta pregunta.",
+			"PREVIOUSLY_ATTEMPTED": "Ya has visto esto antes. ¡Veamos si recuerdas cuál es la respuesta correcta esta vez!",
+			"CORRECT_ANSWER": "Eso es correcto!",
+			"INCORRECT_ANSWER": "No lo siento. La respuesta correcta se muestra arriba.",
+			"NEXT_QUESTION": "Próxima pregunta",
 
             "QUESTION_1": {
-                "QUESTION": "In general, what will help machines to learn better?",
-                "ANSWER_1": "More examples", 
-                "ANSWER_2": "Fewer examples",
-                "NOTES_1": "That isn't the only thing that has an effect. But in general, the more examples it has to learn from, the better it should learn."
+                "QUESTION": "En general, ¿qué ayudará a las máquinas a aprender mejor?",
+                "ANSWER_1": "Más ejemplos", 
+                "ANSWER_2": "Menos ejemplos",
+                "NOTES_1": "Eso no es lo único que tiene un efecto. Pero en general, cuantos más ejemplos tenga que aprender, mejor debería aprender."
             },
             "QUESTION_2": {
-                "QUESTION": "Which of these would probably be best for training a computer to recognise a photo of an apple?",
-                "ANSWER_1": "Photos of dogs", 
-                "ANSWER_2": "Varied photos of different types of apples in different places",
-                "ANSWER_3": "Identical photos of an apple",
-                "ANSWER_4": "Very, very similar photos of the same apple in the same place",
-                "NOTES_1": "The more varied the examples you can collect, the more the system can learn about how to recognise different pictures of an apple.",
-                "NOTES_2": "If every example you give it is the same apple on the same brown wooden table, it might learn that something is only an apple if it's on a brown wooden table."
+                "QUESTION": "¿Cuál de estos probablemente sería mejor para entrenar a una computadora a reconocer una foto de una manzana?",
+                "ANSWER_1": "Fotos de perros", 
+                "ANSWER_2": "Fotos variadas de diferentes tipos de manzanas en diferentes lugares.",
+                "ANSWER_3": "Fotos idénticas de una manzana",
+                "ANSWER_4": "Fotos muy, muy similares de la misma manzana en el mismo lugar.",
+                "NOTES_1": "Cuanto más variados sean los ejemplos que pueda recopilar, más podrá aprender el sistema sobre cómo reconocer las diferentes imágenes de una manzana.",
+                "NOTES_2": "Si cada ejemplo que le da es la misma manzana en la misma mesa de madera marrón, podría aprender que algo es solo una manzana si está en una mesa de madera marrón."
             },
             "QUESTION_3": {
-                "QUESTION": "Which of these would be a good use of machine learning?",
-                "ANSWER_1": "Adding big numbers together",
-                "ANSWER_2": "Recognising if an email is spam",
-                "ANSWER_3": "Counting the number of times a button is pressed",
-                "NOTES_1": "Spam filters are a good example of machine learning.",
-                "NOTES_2": "With enough examples of legitimate emails, and enough examples of spam emails, a computer can start to learn how to recognise a spam email."
+                "QUESTION": "¿Cuál de estos sería un buen uso del aprendizaje automático?",
+                "ANSWER_1": "Agregar grandes números juntos",
+                "ANSWER_2": "Reconociendo si un correo electrónico es spam",
+                "ANSWER_3": "Contando la cantidad de veces que se presiona un botón",
+                "NOTES_1": "Los filtros de spam son un buen ejemplo de aprendizaje automático.",
+                "NOTES_2": "Con suficientes ejemplos de correos electrónicos legítimos y suficientes ejemplos de correos electrónicos no deseados, una computadora puede comenzar a aprender cómo reconocer un correo electrónico no deseado."
             },
             "QUESTION_4": {
-                "QUESTION": "Which of these is NOT a good use of machine learning?",
-                "ANSWER_1": "Sentiment analysis - recognising the mood, tone or emotion in text",
-                "ANSWER_2": "Translating text from one language to another",
-                "ANSWER_3": "Face recognition - recognising a face in a photo and identifying who it is",
-                "ANSWER_4": "Self-driving cars",
-                "ANSWER_5": "Calculating the cost of something in different countries based on exchange rates",
-                "ANSWER_6": "Recommending a movie based on films you've watched before",
-                "NOTES_1": "Tasks that involve following rules which can be worked out are not a good use for machine learning.",
-                "NOTES_2": "A computer isn't going to learn how to apply an exchange rate from examples - we can just tell it what to do."
+                "QUESTION": "¿Cuál de estos NO es un buen uso del aprendizaje automático?",
+                "ANSWER_1": "Análisis de sentimientos: reconocer el estado de ánimo, el tono o la emoción en el texto.",
+                "ANSWER_2": "Traducción de texto de un idioma a otro",
+                "ANSWER_3": "Reconocimiento facial: reconocer una cara en una foto e identificar quién es",
+                "ANSWER_4": "Autos sin conductor",
+                "ANSWER_5": "Calcular el costo de algo en diferentes países en función de los tipos de cambio",
+                "ANSWER_6": "Recomendar una película basada en películas que has visto antes",
+                "NOTES_1": "Las tareas que implican seguir reglas que se pueden resolver no son un buen uso para el aprendizaje automático.",
+                "NOTES_2": "Una computadora no va a aprender cómo aplicar una tasa de cambio a partir de ejemplos, solo podemos decirle qué hacer."
             },
             "QUESTION_5": {
-                "QUESTION": "Which of these would be more likely to be successful?",
-                "ANSWER_1": "Collect a small set of examples, train a system, test to see how good it is. Add more examples, train again, and then test again. Repeat until it gets good enough.",
-                "ANSWER_2": "More examples is better, so decide you must need millions of examples. Start collecting a massive set of examples, and spend months collecting more and more and more.",
-                "NOTES_1": "More examples is generally better, but be practical.",
-                "NOTES_2": "Pragmatism is important. Regular testing is useful to let you know how things are going, and help you know when you've done enough.",
-                "NOTES_3": "When you've only got ten examples, another ten examples will probably make a huge difference.",
-                "NOTES_4": "When you've got 100,000 examples, another ten examples probably won't have a noticeable impact."
+                "QUESTION": "¿Cuál de estos sería más probable que tenga éxito?",
+                "ANSWER_1": "Recopile un pequeño conjunto de ejemplos, entrene un sistema, pruebe para ver qué tan bueno es. Agregue más ejemplos, entrene nuevamente y luego pruebe nuevamente. Repita hasta que se vuelva lo suficientemente bueno.",
+                "ANSWER_2": "Más ejemplos es mejor, así que decida que necesita millones de ejemplos. Comience a recopilar un conjunto masivo de ejemplos y pase meses recolectando más y más y más.",
+                "NOTES_1": "Más ejemplos es generalmente mejor, pero sea práctico.",
+                "NOTES_2": "El pragmatismo es importante. Las pruebas regulares son útiles para hacerle saber cómo van las cosas y ayudarlo a saber cuándo ha hecho lo suficiente.",
+                "NOTES_3": "Cuando solo tienes diez ejemplos, otros diez ejemplos probablemente harán una gran diferencia.",
+                "NOTES_4": "Cuando tenga 100,000 ejemplos, otros diez ejemplos probablemente no tendrán un impacto notable."
             },
             "QUESTION_6": {
-                "QUESTION": "Which of these statements is correct?",
-                "ANSWER_1": "Machine learning is a technique where computers can be trained to perform tasks instead of needing to be given an explicit set of steps to follow",
-                "ANSWER_2": "Machine learning is magic",    
-                "ANSWER_3": "Machine learning means we don't need to think about problems any more because computers will think for us",
-                "ANSWER_4": "Machine learning has replaced the need for us to learn how to code",
-                "ANSWER_5": "Machine learning can only be done on massive supercomputers"
+                "QUESTION": "¿Cuál de estas afirmaciones es correcta?",
+                "ANSWER_1": "El aprendizaje automático es una técnica en la que las computadoras se pueden entrenar para realizar tareas en lugar de tener que dar un conjunto explícito de pasos a seguir.",
+                "ANSWER_2": "El aprendizaje automático es mágico",    
+                "ANSWER_3": "El aprendizaje automático significa que ya no necesitamos pensar en problemas porque las computadoras pensarán por nosotros",
+                "ANSWER_4": "El aprendizaje automático ha reemplazado la necesidad de que aprendamos a codificar",
+                "ANSWER_5": "El aprendizaje automático solo se puede realizar en supercomputadoras masivas"
             },
             "QUESTION_7": {
-                "QUESTION": "A machine learning system trained to recognise pictures with a tree in should be good at which of the following tasks:",
-                "ANSWER_1": "Identifying pictures of fruit",
-                "ANSWER_2": "Recognising the emotion in a piece of writing",
-                "ANSWER_3": "Recognising pictures of trees",
-                "NOTES_1": "Machine learning does not mean computers magically learn to do everything.",
-                "NOTES_2": "It means they learn how to do a specific task by being shown examples of that specific task.",
-                "NOTES_3": "If you want it to do something else, you need to train it to do that as well, by giving it examples of that."
+                "QUESTION": "Un sistema de aprendizaje automático capacitado para reconocer imágenes con un árbol debe ser bueno en cuál de las siguientes tareas:",
+                "ANSWER_1": "Identificando imágenes de frutas",
+                "ANSWER_2": "Reconociendo la emoción en un escrito",
+                "ANSWER_3": "Reconocer imágenes de árboles",
+                "NOTES_1": "El aprendizaje automático no significa que las computadoras aprendan mágicamente a hacer todo.",
+                "NOTES_2": "Significa que aprenden a hacer una tarea específica al mostrar ejemplos de esa tarea específica.",
+                "NOTES_3": "Si quiere que haga otra cosa, también necesita entrenarlo para hacerlo, dándole ejemplos de eso."
             },
             "QUESTION_8": {
-                "QUESTION": "Alice and Bob both want to train a machine learning system to recognise if text is happy/positive or sad/negative. Which of them will probably train the best system?",
-                "ANSWER_1": "Alice. She has collected 10 varied examples of happy text, and 10 varied examples of sad text",
-                "ANSWER_2": "Bob. He has collected 1000 examples of happy writing and 10 examples of sad writing",
-                "NOTES_1": "Collecting a roughly similar number of examples for each label is a useful technique.",
-                "NOTES_2": "If nearly every example of writing you train a system with is happy, you might end up training the system to assume that sad writing is very unlikely, and that it should assume happy more often.",
+                "QUESTION": "Alice y Bob quieren entrenar un sistema de aprendizaje automático para reconocer si el texto es feliz / positivo o triste / negativo. ¿Cuál de ellos probablemente entrenará al mejor sistema?",
+                "ANSWER_1": "Alicia. Ella ha recopilado 10 ejemplos variados de texto feliz y 10 ejemplos variados de texto triste",
+                "ANSWER_2": "Bob. Ha recopilado 1000 ejemplos de escritura feliz y 10 ejemplos de escritura triste.",
+                "NOTES_1": "Recopilar un número más o menos similar de ejemplos para cada etiqueta es una técnica útil.",
+                "NOTES_2": "Si casi todos los ejemplos de escritura con los que entrena un sistema son felices, puede terminar entrenando el sistema para asumir que la escritura triste es muy improbable y que debería asumir feliz más a menudo.",
                 "NOTES_3": "",
-                "NOTES_4": "But, you might want it to do this.",
-                "NOTES_5": "If you're training a system to recognise text where text is happy 98% of the time, training it with that realistic experience might be worth a try."
+                "NOTES_4": "Pero, es posible que desee que haga esto.",
+                "NOTES_5": "Si está entrenando un sistema para reconocer el texto donde el texto es feliz el 98% del tiempo, vale la pena intentarlo con esa experiencia realista."
             },
             "QUESTION_9": {
-                "QUESTION": "Advanced machine learning technology will always give correct answers. Incorrect answers mean the machine learning technology isn't very good",
-                "ANSWER_1": "True", 
-                "ANSWER_2": "False", 
-                "NOTES_1": "Not necessarily.",
+                "QUESTION": "La tecnología avanzada de aprendizaje automático siempre dará respuestas correctas. Las respuestas incorrectas significan que la tecnología de aprendizaje automático no es muy buena",
+                "ANSWER_1": "Verdadero
+                "ANSWER_2": "Falso, 
+                "NOTES_1": "No necesariamente.",
                 "NOTES_2": "",
-                "NOTES_3": "The technology and algorithms are important. BUT machine learning systems are only as accurate and reliable as the training they are given.",
-                "NOTES_4": "Simple machine learning algorithms with a lot of high quality training can do better than the most advanced machine learning algorithms with a small amount of poor quality training."
+                "NOTES_3": "La tecnología y los algoritmos son importantes. PERO los sistemas de aprendizaje automático son tan precisos y confiables como el entrenamiento que reciben.",
+                "NOTES_4": "Los algoritmos simples de aprendizaje automático con una gran calidad de datos de entrenamiento pueden funcionar mejor que los algoritmos de aprendizaje automático más avanzados con datos de entrenamiento de baja calidad."
             },
             "QUESTION_10": {
-                "QUESTION": "How can you make sure your collection of animal pictures is good quality for training a machine and doesn't contain human mistakes?",
-                "ANSWER_1": "Manually inspect all of the pictures of animals yourself and make sure you agree with all of the labels",
-                "ANSWER_2": "Ask lots of people to label all the images and keep the training labels that people generally agree on",
-                "ANSWER_3": "Trick question! Humans are always right - machines make mistakes!",
+                "QUESTION": "¿Cómo puede asegurarse de que su colección de imágenes de animales sea de buena calidad para entrenar una máquina y no contenga errores humanos?",
+                "ANSWER_1": "Inspeccione manualmente todas las imágenes de animales usted mismo y asegúrese de estar de acuerdo con todas las etiquetas",
+                "ANSWER_2": "Pídale a muchas personas que etiqueten todas las imágenes y mantengan las etiquetas de entrenamiento en las que generalmente están de acuerdo",
+                "ANSWER_3": "¡Pregunta capciosa! Los humanos siempre tienen razón: ¡las máquinas cometen errores!",
                 "NOTES_1": "Even humans make mistakes and you won't always have time to double check all the training data!",
                 "NOTES_2": "If the task is tricky it can be a good idea to get more than one person to label each image and keep the label that the most humans agree is the right one."
             },
             "QUESTION_11": {
-                "QUESTION": "A machine trained to identify pictures of \"food\" or \"not food\" gives inconsistent results for sandwiches, often putting them in the \"not food\" class. Which of the following could explain that?",
-                "ANSWER_1": "The human who trained the system doesn't like sandwiches and didn't put any in the training data",
-                "ANSWER_2": "The machine has to be in the right mood for a sandwich so it changes its mind a lot",
-                "ANSWER_3": "Sandwiches are not food. The system is right to be unsure",
-                "NOTES_1": "Machine learning models can only learn from the examples we show them.",
-                "NOTES_2": "It is very easy for humans to accidentally introduce their likes and dislikes into machine learning models so we should be very careful about what training data we use."
+                "QUESTION": "Una máquina entrenada para identificar imágenes de \"comida\" o \"no comida\" da resultados inconsistentes para los sandwiches, a menudo colocándolos en la clase \"no comida\". ¿Cuál de los siguientes podría explicar eso?",
+                "ANSWER_1": "Al humano que entrenó el sistema no le gustan los sándwiches y no puso ninguno en los datos de entrenamiento.",
+                "ANSWER_2": "La máquina tiene que estar en el estado de ánimo adecuado para un sándwich, por lo que cambia mucho de opinión",
+                "ANSWER_3": "Los sándwiches no son comida. El sistema tiene razón al no estar seguro",
+                "NOTES_1": "Los modelos de aprendizaje automático solo pueden aprender de los ejemplos que les mostramos.",
+                "NOTES_2": "Es muy fácil para los humanos introducir accidentalmente sus gustos en los modelos de aprendizaje automático, por lo que debemos tener mucho cuidado con los datos de entrenamiento que utilizamos."
             },
             "QUESTION_12": {
-                "QUESTION": "Which of the following best describes unsupervised learning?",
-                "ANSWER_1": "Writing a program that contains lots of if/else statements to determine the result",
-                "ANSWER_2": "A machine learning algorithm that uses unlabelled data and classifies it based on how similar one dataset is to another",
-                "ANSWER_3": "A machine learning algorithm that uses labelled data and classifies it based on training from example input-output pairs",
-                "NOTES_1": "Unsupervised learning is a type of machine learning, whereas only using if/else statements is not.",
-                "NOTES_2": "Unsupervised learning algorithms are still trained, but the inputs that are given to it are not labelled or classified.",
-                "NOTES_3": "If the data is labelled then this is what's known as supervised learning."
+                "QUESTION": "¿Cuál de las siguientes opciones describe mejor el aprendizaje no supervisado?",
+                "ANSWER_1": "Escribir un programa que contenga muchas declaraciones if / else para determinar el resultado",
+                "ANSWER_2": "Un algoritmo de aprendizaje automático que utiliza datos no etiquetados y los clasifica en función de cuán similar es un conjunto de datos con otro",
+                "ANSWER_3": "Un algoritmo de aprendizaje automático que utiliza datos etiquetados y los clasifica en función del entrenamiento de pares datos de entrada-salida",
+                "NOTES_1": "El aprendizaje no supervisado es un tipo de aprendizaje automático, mientras que el uso de sentencias if / else no lo es.",
+                "NOTES_2": "Los algoritmos de aprendizaje no supervisados también se entrenan, pero las entradas que se le dan no están etiquetadas ni clasificadas previamente.",
+                "NOTES_3": "Si los datos están etiquetados previamente, esto es lo que se conoce como aprendizaje supervisado."
             },
             "QUESTION_13": {
-                "QUESTION": "Without machine learning, it would be impossible for search engines such as Google to exist.",
-                "ANSWER_1": "True", 
-                "ANSWER_2": "False", 
-                "NOTES_1": "Whilst many modern search engines do use machine learning, it is possible to create one without it. A basic search engine will just look for documents (web pages) that include the words the user searches for."
+                "QUESTION": "Sin el aprendizaje automático, sería imposible que existieran motores de búsqueda como Google.",
+                "ANSWER_1": "Verdadero", 
+                "ANSWER_2": "Falso", 
+                "NOTES_1": "Si bien muchos motores de búsqueda modernos utilizan el aprendizaje automático, "Si" es posible crear uno sin él.   Un motor de búsqueda básico (sin aprendizaje automático) solo buscará documentos (páginas web) que incluyan las palabras que busca el usuario."
             }
 		}
 	},
     "DESCRIBEMODEL": {
-        "TITLE": "Understand your machine learning model",
-        "TRYITOUT": "Try out your machine learning model to see how it uses the decision tree to make predictions",
+        "TITLE": "Comprenda su modelo de aprendizaje automático",
+        "TRYITOUT": "Pruebe su modelo de aprendizaje automático para ver cómo usa el árbol de decisiones para hacer predicciones",
         "EXPLANATION": {
-            "EXPL_1": "The technique used to create your machine learning model is called a <a target='_blank' href='https://wikipedia.org/wiki/Decision_tree_learning'>Decision Tree Classifier</a>.",
-            "EXPL_2": "This is not the only way to train a machine learning model. We're using it because it's very quick and easy to train, and it is one of the easiest techniques to understand. This page shows you the decision tree that was created based on the training examples that you have collected.",
-            "EXPL_3": "When you test your model, the computer starts at the top of the tree, and follows a path until it reaches the bottom. The <strong>class</strong> at the bottom of the tree is the prediction that the machine learning model makes.",
-            "EXPL_4": "At each box in the tree, it reads the test described at the top of the box. If your test values pass the test described in the box, it follows the arrow to the left. If it doesn't pass the test, it follows the arrow to the right.",
-            "EXPL_5": "The <strong>samples</strong> shown in each box tells you how many examples in your training data matches that part of the decision tree.",
-            "EXPL_6": "The <strong>value</strong> shown in each box tells you how many examples in your training data passed the test shown at the top (following the left arrow) and how many examples didn't pass the test at the top (following the right arrow)."
+            "EXPL_1": "La técnica utilizada para crear su modelo de aprendizaje automático se llama <a target='_blank' href='https://wikipedia.org/wiki/Decision_tree_learning'>Arbol de Decisión Clasificador (Decision Tree Classifier)</a>.",
+            "EXPL_2": "Esta no es la única forma de entrenar un modelo de aprendizaje automático. Lo estamos usando porque es muy rápido y fácil de entrenar, y es una de las técnicas más fáciles de entender. Esta página le muestra el árbol de decisión creado en base a los ejemplos de capacitación que ha recopilado.",
+            "EXPL_3": "Cuando prueba su modelo, la computadora comienza en la parte superior del árbol y sigue un camino hasta llegar a la parte inferior. La <strong>clase</strong> en la parte inferior del árbol es la predicción que hace el modelo de aprendizaje automático.",
+            "EXPL_4": "En cada cuadro del árbol, se puede leer la prueba descrita en la parte superior del cuadro. Si sus valores de prueba pasan la prueba, sigue la flecha a la izquierda. Si no pasa la prueba, sigue la flecha hacia la derecha.",
+            "EXPL_5": "Las <strong>muestras</strong>  en cada cuadro le indican cuántos ejemplos en sus datos de entrenamiento coinciden con esa parte del árbol de decisión.",
+            "EXPL_6": "El <strong>valor</strong> que se muestra en cada cuadro le indica cuántos ejemplos en sus datos de entrenamiento pasaron la prueba que se muestra en la parte superior (siguiendo la flecha izquierda) y cuántos ejemplos no pasaron la prueba en la parte superior (siguiente la flecha derecha)"
         },
         "ERRORS": {
-            "NUMBERSONLY": "Only machine learning models for numbers projects can be described"
+            "NUMBERSONLY": "Solo se pueden describir modelos de aprendizaje automático para proyectos de números"
         }
 	},
 	"MAKES": {
@@ -676,7 +676,7 @@
 	"APPINVENTOR": {
 		"TITLE": "Usando aprendizaje automático en App Inventor",
 
-        "LAUNCH_APPINVENTOR_BY_ITSELF": "(You can use <a href='{{ url }}' class='btn btn-default' target='_blank'>App Inventor by itself</a> if you want.)",
+        "LAUNCH_APPINVENTOR_BY_ITSELF": "(Puede utilizar <a href='{{ url }}' class='btn btn-default' target='_blank'>App Inventor by itself</a> si lo prefiere.)",
 
 		"NOTREADY": "Tu Proyecto no está listo para usarse en App Inventor yet.",
 		"NOMODEL": "Todavia no has entrenado un modelo.",
@@ -875,14 +875,14 @@
 			"DESCRIPTION": "Enseña a una computadora a interpretar titulares de los principales periódicos."
 		},
 		"NEWSPAPERSHELVES": {
-            "TITLE": "Newspaper shelves",
-            "SUMMARY": "Test the computer's ability to recognise use of language",
-            "DESCRIPTION": "Train a computer to recognise headlines from national newspapers."
+            "TITLE": "Estantes de periódicos",
+            "SUMMARY": "Probar la capacidad de la computadora para reconocer como se usa el lenguaje",
+            "DESCRIPTION": "Entrene una computadora para reconocer los titulares de los periódicos nacionales."
         },
         "HEADLINETESTING": {
-            "TITLE": "Headline testing",
-            "SUMMARY": "Test the computer's ability to recognise use of language",
-            "DESCRIPTION": "Create a testing tool in Scratch to measure how good a machine learning model is"
+            "TITLE": "Prueba de titulares",
+            "SUMMARY": "Probar la capacidad de la computadora para reconocer como se usa el lenguaje",
+            "DESCRIPTION": "Cree una herramienta de prueba en Scratch para medir qué tan bueno es un modelo de aprendizaje automático"
         },
 		"FINDIT": {
 			"TITLE": "¡Encuéntralo!",
@@ -890,24 +890,24 @@
 			"DESCRIPTION": "Crea un juego de escondite para el móvil"
 		},
         "ALIENLANGUAGE": {
-            "TITLE": "Alien Language",
-            "SUMMARY": "Teach a computer to recognize sounds",
-            "DESCRIPTION": "Make an alien in Scratch that learns to recognize an alien language"
+            "TITLE": "Idioma Extraterrestre",
+            "SUMMARY": "Enseñar a una computadora a reconocer sonidos",
+            "DESCRIPTION": "Haz un extraterrestre en Scratch que aprenda a reconocer un idioma extraño"
         },
         "SECRETCODE": {
-            "TITLE": "Secret Code",
-            "SUMMARY": "Teach a computer to recognize speech",
-            "DESCRIPTION": "Train a computer to understand secret code words to guide a spy."
+            "TITLE": "Código secreto",
+            "SUMMARY": "Enseñar a una computadora a reconocer el habla",
+            "DESCRIPTION": "Entrene a una computadora para que comprenda palabras de código secreto para guiar a un espía."
         },
         "JARGONBUSTER": {
-            "TITLE": "Jargon Buster",
-            "SUMMARY": "Teach a computer to listen for words",
-            "DESCRIPTION": "Make a project in Scratch that displays the meaning of words you say."
+            "TITLE": "Destructor de jerga",
+            "SUMMARY": "Enseñe a una computadora a escuchar palabras",
+            "DESCRIPTION": "Haz un proyecto en Scratch que muestre el significado de las palabras que dices."
         },
         "TITANIC": {
             "TITLE": "Titanic",
-            "SUMMARY": "Teach a computer to predict outcomes",
-            "DESCRIPTION": "Create a Python program that can predict who survived the sinking of the Titanic."
+            "SUMMARY": "Enseñe a una computadora a predecir resultados",
+            "DESCRIPTION": "Crea un programa Python que pueda predecir quién sobrevivió al hundimiento del Titanic."
         }
 	},
 	"TEACHER": {
@@ -1060,48 +1060,48 @@
             "ADD_MULTIPLE": {
                 "BUTTON" : "Multiple students",
 
-                "TITLE" : "Add new students",
-                "INTRO" : "You can use this to create more than one student account at the same time.",
-                "USERNAME" : "What do you want each username to start with?",
-                "USERNAME_REQUIRED" : "Please choose the prefix for the usernames",
-                "USERNAME_TOOLONG" : "That is too long",
-                "USERNAME_INVALID" : "Invalid characters",
-                "NUMBER" : "How many student accounts do you want?",
-                "NUMBER_REQUIRED" : "Please enter the number of students to create",
-                "NUMBER_TOOMANY" : "Your class has a limit of {{userslimit}} students.",
-                "PASSWORD" : "The password to give them:",
-                "PASSWORD_TOOSHORT" : "Too short"
+                "TITLE" : "Agregar nuevos estudiantes",
+                "INTRO" : "Puede usar esto para crear más de una cuenta de estudiante al mismo tiempo.",
+                "USERNAME" : "¿Con qué quieres que comience cada nombre de usuario?",
+                "USERNAME_REQUIRED" : "Por favor, elija el prefijo para los nombres de usuario",
+                "USERNAME_TOOLONG" : "Eso es demasiado largo",
+                "USERNAME_INVALID" : "Caracteres inválidos",
+                "NUMBER" : "¿Cuántas cuentas de estudiantes quieres?",
+                "NUMBER_REQUIRED" : "Por favor ingrese el número de estudiantes para crear",
+                "NUMBER_TOOMANY" : "Su clase tiene un límite de {{userslimit}} estudiantes.",
+                "PASSWORD" : "La contraseña para darles:",
+                "PASSWORD_TOOSHORT" : "Demasiado corto"
             }
 		}
 	},
     "SCRATCHBLOCKS": {
         "TEXT_PROJECTS": {
-            "mlforkids.text.recogniseLabel": "recognise text [TEXT] (label)",
-            "mlforkids.text.recogniseConfidence": "recognise text [TEXT] (confidence)",
-            "mlforkids.text.addTraining": "add training data [TEXT] [LABEL]",
-            "mlforkids.text.trainNewModel": "train new machine learning model",
-            "mlforkids.text.checkModelStatus": "Is the machine learning model [STATUS] ?"
+            "mlforkids.text.recogniseLabel": "reconocer texto [TEXT] (label)",
+            "mlforkids.text.recogniseConfidence": "reconocer texto [TEXT] (confianza)",
+            "mlforkids.text.addTraining": "agregar datos de entrenamiento[TEXT] [LABEL]",
+            "mlforkids.text.trainNewModel": "entrenar nuevo modelo de aprendizaje automático",
+            "mlforkids.text.checkModelStatus": "Es el modelo de aprendizaje automático [STATUS] ?"
         },
         "IMAGES_PROJECTS": {
-            "mlforkids.images.recogniseLabel": "recognise image [IMAGE] (label)",
-            "mlforkids.images.recogniseConfidence": "recognise image [IMAGE] (confidence)",
-            "mlforkids.images.addTraining": "add training data [TEXT] [LABEL]"
+            "mlforkids.images.recogniseLabel": "reconocer imagen [IMAGE] (etiqueta)",
+            "mlforkids.images.recogniseConfidence": "reconocer imagen [IMAGE] (confianza)",
+            "mlforkids.images.addTraining": "agregar datos de entrenamiento [TEXT] [LABEL]"
         },
         "NUMBER_PROJECTS": {
-            "mlforkids.numbers.trainNewModel": "train new machine learning model"
+            "mlforkids.numbers.trainNewModel": "entrenar nuevo modelo de aprendizaje automático"
         },
         "TWITTER": {
-            "mlforkids.twitter.getrecenttweet": "get the [INDEX] most recent tweet about [TOPIC]"
+            "mlforkids.twitter.getrecenttweet": "Obtenga el [INDEX] tweet más reciente sobre [TOPIC]"
         },
         "IMAGE_BLOCKS": {
-            "mlforkids.imageblocks.getCostumeImage": "costume image",
-            "mlforkids.imageblocks.getBackdropCostumeImage": "backdrop image",
-            "mlforkids.imageblocks.getBackdropImage": "backdrop image",
-            "mlforkids.imageblocks.saveScreenshotToCostume": "save screenshot to costume"
+            "mlforkids.imageblocks.getCostumeImage": "imagen disfraz",
+            "mlforkids.imageblocks.getBackdropCostumeImage": "imagen de fondo",
+            "mlforkids.imageblocks.getBackdropImage": "imagen de fondo",
+            "mlforkids.imageblocks.saveScreenshotToCostume": "guardar captura de pantalla en el disfraz"
         },
         "GUI": {
-            "gui.menuBar.mlforkidsLibrary": "Project templates",
-            "gui.mlforkidsLibrary.templates": "Machine Learning for Kids modelos de projeto"
+            "gui.menuBar.mlforkidsLibrary": "Plantillas de proyecto",
+            "gui.mlforkidsLibrary.templates": "Machine Learning for Kids modelos de proyecto"
         }
     },
 	"HELP": {
@@ -1270,22 +1270,22 @@
 			"Q4-A-8": "Los errors del navegador se recogen mediante un servicio de tercerosa <a href='https://sentry.io/'>Sentry</a>. Si algo falla, recogerá la información del error, incluyendo nombre de usurio, dirección IP, tipo de navegador y una descripción técnica de lo que ha fallado.",
 			"Q4-A-9": "Uso <a href='https://www.google.com/analytics/'>Google Analytics</a> para saber cuántos usuarios visitan visit Machine Learning for Kids cada día. Aunque también recoge información geográfica o tipo de navegador, esto solo puedo verlo de forma agregada y anonimizada.",
 
-            "Q5": "What happens to training data created by students?",
-            "Q5-A-1": "A step in all machine learning projects that students make using this site is to create or collect training examples. For text projects, this can mean typing in short text passages. For image projects, this can means drawing pictures onto an on-screen canvas or taking photos using the webcam. For numbers projects, this means typing in sets of numbers",
-            "Q5-A-2": "All of these training examples are stored in a <a href='https://www.ibm.com/cloud/compose/mysql'>MySQL database hosted on IBM Cloud</a>. As the database administrator, I have access to all of these training examples for all student projects, however I do not use it for any other purposes other than enabling students to access and work on their own projects. I do not publish the training data (either publicly or to individuals or third parties) or otherwise share it, with the two exceptions of submitting it to IBM Watson APIs described below.",
-            "Q5-A-3": "Machine learning models for text projects are created using the <a href='https://www.ibm.com/cloud/watson-assistant/'>IBM Watson Assistant</a> cloud service, which means when students train a model, a copy of the training examples that they have entered will be <a href='https://cloud.ibm.com/apidocs/assistant#create-workspace'>submitted to IBM Watson</a>. IBM Watson does not use these training examples for any other purposes. This is because Machine Learning for Kids <a href='https://cloud.ibm.com/apidocs/assistant#data-collection'>requests an opt-out</a> for student training examples being used by IBM to improve the service, as <a href='https://cloud.ibm.com/docs/services/watson?topic=watson-gs-logging-overview'>described in the Watson documentation</a>.",
-            "Q5-A-4": "Machine learning models for images projects are created using the <a href='https://www.ibm.com/watson/services/visual-recognition/'>IBM Visual Recognition</a> cloud service, which means when students train a model, a copy of their training images will be <a href='https://cloud.ibm.com/apidocs/visual-recognition#create-a-classifier'>uploaded to IBM Watson</a>. IBM Watson does not use these training examples for any other purposes. This is because Machine Learning for Kids <a href='https://cloud.ibm.com/apidocs/visual-recognition#data-collection'>requests an opt-out</a> for student training examples being used by IBM to improve the service, as <a href='https://cloud.ibm.com/docs/services/watson?topic=watson-gs-logging-overview'>described in the Watson documentation</a>.",
-            "Q5-A-5": "IBM Watson provides some <a href='https://cloud.ibm.com/docs/services/assistant?topic=assistant-information-security#information-security-gdpr-wa'>general guidance for sharing training data with their services</a>, which also apply to training data created and collected in Machine Learning for Kids. Specifically, students should be advised not to include personally identifiable information in the examples that they collect."
+            "Q5": "¿Qué sucede con los datos de entrenamiento creados por los estudiantes?",
+            "Q5-A-1": "Un paso en todos los proyectos de aprendizaje automático que los estudiantes realizan al usar este sitio es crear o recopilar ejemplos de entrenamiento. Para proyectos de texto, esto puede significar escribir pasajes de texto cortos. Para proyectos de imágenes, esto puede significar dibujar imágenes en una pantalla o tomar fotos usando la cámara web. Para proyectos de números, esto significa escribir conjuntos de números",
+            "Q5-A-2": "Todos estos ejemplos de entranamiento se almacenan en una <a href='https://www.ibm.com/cloud/compose/mysql'> base de datos MySQL alojada en IBM Cloud</a>. Como administrador de la base de datos, tengo acceso a todos estos ejemplos de entrenamiento para todos los proyectos de los estudiantes, sin embargo, no los uso para ningún otro propósito que no sea permitir a los estudiantes acceder y trabajar en sus propios proyectos. No publico los datos de entrenamiento (ya sea públicamente ni a individuos o terceros) ni los comparto, con las dos excepciones de enviarlos a las API de IBM Watson que se describen a continuación.",
+            "Q5-A-3": "Los modelos de aprendizaje automático para proyectos de texto se crean utilizando el servicio en la nube <a href='https://www.ibm.com/cloud/watson-assistant/'>IBM Watson Assistant</a>, lo que significa que, cuando los estudiantes entrenan un modelo una copia de los ejemplos de entrenamiento que han ingresado será <a href='https://cloud.ibm.com/apidocs/assistant#create-workspace'> enviado a IBM Watson</a>. IBM Watson no utiliza estos ejemplos de entrenamiento para ningún otro propósito. Esto se debe a que Machine Learning for Kids <a href='https://cloud.ibm.com/apidocs/assistant#data-collection'> solicita una exclusión voluntaria</a> para ejemplos de entrenamiento de estudiantes que IBM está utilizando para mejorar el servicio, como <a href='https://cloud.ibm.com/docs/services/watson?topic=watson-gs-logging-overview'> se describe en la documentación de Watson</a>.",
+            "Q5-A-4": "Los modelos de aprendizaje automático para proyectos de imágenes se crean utilizando el servicio en la nube <a href='https://www.ibm.com/watson/services/visual-recognition/'> IBM Visual Recognition </a>, que significa cuando los estudiantes entrenan un modelo, una copia de sus imágenes de entrenamiento se <a href='https://cloud.ibm.com/apidocs/visual-recognition#create-a-classifier'> cargan en IBM Watson</a>. IBM Watson no utiliza estos ejemplos de entrenamiento para ningún otro propósito. Esto se debe a que Machine Learning for Kids <a href='https://cloud.ibm.com/apidocs/visual-recognition#data-collection'> solicita una exclusión voluntaria</a> para ejemplos de entrenamiento de estudiantes que utiliza IBM para mejorar el servicio, como <a href='https://cloud.ibm.com/docs/services/watson?topic=watson-gs-logging-overview'> se describe en la documentación de Watson </a>.",
+            "Q5-A-5": "IBM Watson proporciona alguna <a href='https://cloud.ibm.com/docs/services/assistant?topic=assistant-information-security#information-security-gdpr-wa'> orientación general para compartir datos de entrenamiento con sus servicios </a>, que también se aplican a los datos de entrenamiento creados y recopilados en Machine Learning for Kids. Específicamente, se debe aconsejar a los estudiantes que no incluyan información de identificación personal en los ejemplos que recopilan."
 		}
 	},
     "APIKEYSGUIDE": {
-        "TITLE": "Guide to IBM Cloud",
+        "TITLE": "Guía de IBM Cloud",
         "INTRO": {
-            "INTRO_1": "Teachers / parents / code club-leaders with unmanaged class accounts need to provide '<strong>API Keys</strong>' from IBM Cloud. These are secret codes that provide access to the artificial intelligence technology that will power student projects.",
-            "INTRO_2": "Text projects need a 'Watson Assistant' API Key. Image projects need a 'Visual Recognition' API Key. (Numbers and Sound projects don't require API Keys).",
-            "INTRO_3": "You will need to create an account on IBM Cloud to be able to create these codes. It is free to create an account, and there are no charges for 'Lite' API Keys. "
+            "INTRO_1": "Los maestros / padres / líderes de club de código con cuentas de clase no administradas deben proporcionar '<strong>API Keys</strong>' de IBM Cloud. Estos son códigos secretos que proporcionan acceso a la tecnología de inteligencia artificial que impulsará los proyectos de los estudiantes.",
+            "INTRO_2": "Los proyectos de texto necesitan una clave API 'Asistente de Watson' (Watson Assistant). Los proyectos de imagen necesitan una clave API de 'Reconocimiento Visual' (Visual Recognition). Los proyectos de Números y Sonidos no requieren claves API.",
+            "INTRO_3": "Deberá crear una cuenta en IBM Cloud para poder crear estos códigos. Crear una cuenta es gratis, y no hay cargos por claves de API 'Lite'. "
         },
-        "LINK": "How to create API Keys",
-        "EXPLANATION": "Download a step-by-step guide for how to create API Keys on IBM Cloud"
+        "LINK": "Cómo crear claves API",
+        "EXPLANATION": "Descargue una guía paso a paso sobre cómo crear claves API en IBM Cloud"
     }
 }
